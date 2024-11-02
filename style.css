@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    border: border-block;
+    font-family: Arial;
+    padding: 0; /* Added padding reset */
+    box-sizing: border-box; /* Added box-sizing for easier layout management */
+}
+body {
+    margin: 0;
+    overflow-x: hidden; /* Hides the horizontal scrollbar */
+}
+
+html {
+    overflow-x: hidden; /* Also hides horizontal overflow for the html element */
+}
+
+/* Background-Image */
+
+.background-image{
+    background-image: url("Netflix2.png");
+    height: 650px;
+    background-size: cover;
+    filter: brightness(30%);
+} 
+.curved-border {
+    height: 60px; /* Adjust height as needed */
+    background: black; /* Color of the border */
+    border-radius: 80% 80% 0% 0%; /* Adjust the curve */
+    border-top: 4px solid red;
+    width: 100%;
+    position: absolute;
+    top: 90%; /* Adjust to pull it up into the background */
+    z-index: 2; /* Behind the logo and buttons */
+    *{
+    margin: 0;
+    border: border-block;
+    font-family: Arial;
+}
+/* Background-Image */
+
+.background-image{
+    background-image: url("Netflix2.png");
+    height: 650px;
+    background-size: cover;
+    filter: brightness(30%);
+} 
+.curved-border {
+    height: 60px; /* Adjust height as needed */
+    border-radius: 90% 90% 0% 0%; /* Adjust the curve */
+    border-top: 4px solid red;
+    width: 100%;
+    position: absolute;
+    top: 92%; /* Adjust to pull it up into the background */
+    z-index: 2; /* Behind the logo and buttons */
+}
+
+/* Logo and Sing-in */
+.head-logo{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.logo{
+    height: auto;
+    width: auto;
+    z-index: 2;
+    display: block;
+    
+}
+.logo img{
+    height: 130px;
+    width: auto;
+    margin-left: 100px;
+    
+}
+.sign-in button{
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 235px;
+    
+}
+.sign-in button:hover{
+    background-color: rgb(204, 0, 0);
+}
+
+/* Message and Email */
+.hero-msg{
+    position: absolute;
+    top: 40%;
+    left: 49%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    font-weight: 600px;
+}
+.big-txt{ 
+    font-weight: 800;
+    font-size: 50px; 
+}
+.mid-txt{
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+}
+.low-txt{
+    font-weight: 300;
+    font-size: 16px; 
+    padding: 12px;
+}
+
+.email{
+    display:flex;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 63%;
+    left:49%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+.email input{
+    height: 55px;
+    width: 100%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.email input::placeholder {
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+}
+.email button{ 
+    height: 60px;
+    width: 200px;
+    font-size: 21px;
+    font-weight: 700px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 18px;
+}
+.email button:hover{
+    background-color:rgb(204, 0, 0);  
+}
+
+/* Bottom Section */
+
+.bottom-section{
+    background-color: black;
+    height: 500px;
+    width: 1255px;
+    border: 4px solid red;
+    border: border-box;
+}
+}
+
+/* Logo and Sing-in */
+.head-logo{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.logo{
+    height: auto;
+    width: auto;
+    z-index: 2;
+    display: block;
+    
+}
+.logo img{
+    height: 130px;
+    width: auto;
+    margin-left: 100px;
+    
+}
+.sign-in button{
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 235px;
+    
+}
+.sign-in button:hover{
+    background-color: rgb(204, 0, 0);
+}
+
+/* Message and Email */
+.hero-msg{
+    position: absolute;
+    top: 40%;
+    left: 49%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    font-weight: 600px;
+}
+.big-txt{ 
+    font-weight: 800;
+    font-size: 50px; 
+}
+.mid-txt{
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+}
+.low-txt{
+    font-weight: 300;
+    font-size: 16px; 
+    padding: 12px;
+}
+
+.email{
+    display:flex;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 63%;
+    left:49%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+.email input{
+    height: 55px;
+    width: 350px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.email input::placeholder {
+    color: gray;
+    font-size: 18px;
+    padding: 4px 0px 4px 4px;
+}
+.email button{ 
+    height: 60px;
+    width: 200px;
+    font-size: 21px;
+    font-weight: 700px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.email button:hover{
+    background-color:rgb(204, 0, 0);  
+}
+
+/* Bottom Section */
+
+.bottom-section {
+    background-color: black;
+    height: 2533px;
+    width: 1263px; /* Ensure the width fits your design */
+    border: border-box;
+    z-index: 4; /* Higher z-index to ensure it's above other sections */
+}
+.bottom-content{
+    height: 2533px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 4;
+    margin: 0px 120px 0px 120px;
+    flex-direction: column;
+    
+
+}
+.bottom-top{
+    position: relative;
+    top: 45px;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    padding-left: 50px;
+
+}
+.movies-opt{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 45px; 
+    top:50px;
+    height: 45px;
+    width: 350px;
+    font-size: 25px;
+}
+.movies-opt select{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.178);
+    color: white;
+    padding: 4px;
+    display: block;
+}
+.movies-opt option{
+    background-color: white;
+    color: black;
+}
+
+
+/* Boxes */
+
+.number{
+    position: relative;
+    top: 70px;
+    left: 25px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+
+}
+.number h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px 100px 0px 100px;
+}
+.box{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    height: 350px;
+    width: 100%; 
+    background-color: black;
+    overflow: hidden;
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 300px;
+    width: 20%;
+    background-image: url("Box1.png");
+    background-size: contain;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box2{
+    height: 300px;
+    width: 20%;
+    background-image: url("Box2.png");
+    background-size: contain;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box3{
+    height: 300px;
+    width: 20%;
+    background-image: url("Box3.jpg");
+    background-size: contain;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box4{
+    height: 300px;
+    width: 20%;
+    background-image: url("Box4.png");
+    background-size: contain;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box5{ 
+    margin-bottom: 100px;
+    height: 300px;
+    width: 20%;
+    background-image: url("Box5.png");
+    background-size: contain;
+    margin: 10px;
+    border-radius: 20px;
+} 
+.box6{ 
+    margin-bottom: 100px;
+    height: 300px;
+    width: 20%;
+    background-image: url("Box6.png");
+    background-size: contain;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box1:hover{
+    transform: scale(1.05);
+}
+.box2:hover{
+    transform: scale(1.05);
+}
+.box3:hover{
+    transform: scale(1.05);
+}
+.box4:hover{
+    transform: scale(1.05);
+}
+.box5:hover{
+    transform: scale(1.05);
+}
+.box6:hover{
+    transform: scale(1.05);
+}
+.netflix-logo-img{
+    height: 40px;
+    width: 65px;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+/* Reasons */
+.reasons{
+    position: relative;
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    z-index: 4;
+}
+.reasons-top{
+    top: 45px;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+}
+.reason-boxes {
+    display: flex;
+    justify-content: flex-start; /* Distributes boxes evenly in a row */
+    align-items: flex-start; /* Centers boxes vertically within the row */
+    flex-direction: row; /* Ensures a horizontal layout */
+    gap: 20px; /* Optional: Adds spacing between boxes */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.rbox1, .rbox2, .rbox3, .rbox4 {
+    height: 350px;
+    width: 23%;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative; /* Ensure the pseudo-element is positioned relative to the parent */
+}
+.rbox1 h2, .rbox2 h2, .rbox3 h2, .rbox4 h2{
+    color: white;
+}
+.rbox1 p, .rbox2 p, .rbox3 p, .rbox4 p{
+    color: rgba(187, 185, 185, 0.897)
+}
+.rbox1 i, .rbox2 i, .rbox3 i, .rbox4 i{
+    font-size: 50px;
+    position: absolute;
+    top: 290px;
+    left: 160px;
+}
+.rbox1::before, .rbox2::before, .rbox3::before, .rbox4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, blue, pink);
+    filter: brightness(40%);
+    z-index: -1; /* Place the background behind the content */
+    border-radius: 20px; /* Match border-radius of parent */
+}
+
+
+/* Asked Questions */
+
+.asked-questions{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    height: 500px;
+    width: 100%;
+    z-index: 4;
+}
+.ask-content{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.ans-top{
+    top: 45px;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+}
+
+.detail1, .detail2, .detail3, .detail4, .detail5, .detail6{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(58, 54, 54);
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+}
+.detail1:hover, .detail2:hover, .detail3:hover, .detail4:hover, .detail5:hover, .detail6:hover{
+    background-color: rgba(105, 102, 102, 0.815);
+}
+.detail1[open]{
+    margin: 0px 0px 150px 0px;
+}
+
+.detail2[open]{
+    margin: 0px 0px 55px 0px;
+}
+
+.detail3[open]{
+    margin: 0px 0px 150px 0px;
+}
+
+.detail4[open]{
+    margin: 0px 0px 60px 0px;
+}
+
+.detail5[open]{
+    margin: 0px 0px 60px 0px;
+}
+
+.detail6[open]{
+    margin: 0px 0px 250px 0px;
+}
+.detail1 p, .detail2 p, .detail3 p, .detail4 p, .detail5 p, .detail6 p{
+    padding: 10px;
+}
+.summary1, .summary2, .summary3, .summary4, .summary5, .summary6{
+    font-size: 25px;
+    padding: 8px;
+}
+
+
+/* Bottom Email */
+
+.bottom-email{
+    position: absolute;
+    top: 2500px;
+    margin-bottom: 100px;
+    right: 20px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bottom-msg{
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.long{
+    width: 500px;
+    height: 65px;
+    padding: 24px 16px 8px;
+    z-index: 4;
+    font-size: 40px;
+}
+
+
+/* foot-panel */
+
+.foot-panel{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 280px;
+    padding: 20px;
+}
+.foot-panel2 {
+    display: flex; /* Use Flexbox */
+    flex-direction: row; /* Arrange ul elements in a row */
+    justify-content: flex-start; /* Add space between ul elements */
+    flex-wrap: wrap; /* Ensure ul elements wrap if needed */
+}
+
+.foot-panel a{
+    color: rgb(141, 136, 136);
+    margin-left: 30px;
+}
+ul{
+    margin: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    margin: 20px 20px 20px 0px;
+    color: #dddddd;
+}
+
+.lang{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+.lang-search{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 3px;
+    font-size: 20px;
+}
+.last-name{
+    font-size: 16px;
+    font-weight: 500px;
+    margin: 10px 0px 0px 15px;
+    margin-top:10px;
+}
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .nav-search {
+        max-width: 400px;
+    }
+
+    .panel-ops {
+        display: none;
+    }
+
+    .shop-section .box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar, .panel, .foot-panel1, .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .shop-section .box {
+        width: calc(100% - 20px);
+    }
+}
+
