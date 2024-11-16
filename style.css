@@ -29,13 +29,8 @@ html {
     border-top: 4px solid red;
     width: 100%;
     position: absolute;
-    top: 90%; /* Adjust to pull it up into the background */
+    top: 95%; /* Adjust to pull it up into the background */
     z-index: 2; /* Behind the logo and buttons */
-    *{
-    margin: 0;
-    border: border-block;
-    font-family: Arial;
-}
 /* Background-Image */
 
 .background-image{
@@ -49,8 +44,8 @@ html {
     border-radius: 90% 90% 0% 0%; /* Adjust the curve */
     border-top: 4px solid red;
     width: 100%;
-    position: absolute;
-    top: 92%; /* Adjust to pull it up into the background */
+    position: relative;
+    top: 100%; /* Adjust to pull it up into the background */
     z-index: 2; /* Behind the logo and buttons */
 }
 
@@ -301,7 +296,7 @@ html {
 .bottom-section {
     background-color: black;
     height: 2533px;
-    width: 1263px; /* Ensure the width fits your design */
+    width: 100%; /* Ensure the width fits your design */
     border: border-box;
     z-index: 4; /* Higher z-index to ensure it's above other sections */
 }
@@ -387,7 +382,7 @@ html {
     height: 300px;
     width: 20%;
     background-image: url("Box1.png");
-    background-size: contain;
+    background-size: cover;
     margin: 10px;
     border-radius: 20px;
 }
@@ -395,7 +390,7 @@ html {
     height: 300px;
     width: 20%;
     background-image: url("Box2.png");
-    background-size: contain;
+    background-size: cover;
     margin: 10px;
     border-radius: 20px;
 }
@@ -403,7 +398,7 @@ html {
     height: 300px;
     width: 20%;
     background-image: url("Box3.jpg");
-    background-size: contain;
+    background-size: cover;
     margin: 10px;
     border-radius: 20px;
 }
@@ -411,7 +406,7 @@ html {
     height: 300px;
     width: 20%;
     background-image: url("Box4.png");
-    background-size: contain;
+    background-size: cover;
     margin: 10px;
     border-radius: 20px;
 }
@@ -420,7 +415,7 @@ html {
     height: 300px;
     width: 20%;
     background-image: url("Box5.png");
-    background-size: contain;
+    background-size: cover;
     margin: 10px;
     border-radius: 20px;
 } 
@@ -429,7 +424,7 @@ html {
     height: 300px;
     width: 20%;
     background-image: url("Box6.png");
-    background-size: contain;
+    background-size: cover;
     margin: 10px;
     border-radius: 20px;
 }
